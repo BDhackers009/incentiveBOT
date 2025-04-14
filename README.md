@@ -24,22 +24,17 @@ This repository contains Python scripts for automating tasks using PyAutoGUI. Th
 ## Usage
 
 ### Running the Scripts
-1. Preprocess the images (optional):
-   ```bash
-   python image.py
-   ```
-   This will generate a processed image (`incentive2_processed.png`).
 
-2. Run the automation script:
-   ```bash
+1. Run the automation script:
+   ```python
    python advanced.py
    ```
    or
-   ```bash
+   ```python
    python automate.py
    ```
 
-3. Press `P` to play/pause the script while it is running.
+2. Press `P` to play/pause the script while it is running.
 
 ### Notes
 - Ensure the screen resolution and scaling match the images for accurate detection.
