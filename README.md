@@ -24,8 +24,9 @@ This repository contains Python scripts for automating tasks using PyAutoGUI. Th
 ## Usage
 
 ### Running the Scripts
+0. Open incentive.finance and go to trade and set trade % then run the script as follows.
 
-1. Run the automation script:
+2. Run the automation script:
    ```python
    python advanced.py
    ```
@@ -34,8 +35,11 @@ This repository contains Python scripts for automating tasks using PyAutoGUI. Th
    python automate.py
    ```
 
-2. Press `P` to play/pause the script while it is running.
+3. Press `P` to play/pause the script while it is running.
 
+### 
+- Video tutorial Incoming.
+  
 ### Notes
 - Ensure the screen resolution and scaling match the images for accurate detection.
 - Adjust the confidence levels in the scripts if the images are not being detected properly.
