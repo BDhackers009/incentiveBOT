@@ -35,17 +35,17 @@ while True:
         print(f"Clicked on incentive2.png at: {center_incentive.x}, {center_incentive.y}")
         time.sleep(random.uniform(15, 20))
 
-        image_path_metamask = "metamask.png"
+        image_path_metamask = "metamask_processed.png"
         location_metamask = pyautogui.locateOnScreen(image_path_metamask, confidence=random.uniform(0.55, 0.65))
 
         if location_metamask:
-            print(f"metamask.png found at: {location_metamask.left}, {location_metamask.top}")
+            print(f"metamask_processed.png found at: {location_metamask.left}, {location_metamask.top}")
             center_metamask = pyautogui.center(location_metamask)
             move_mouse_human_like(center_metamask.x, center_metamask.y)
             pyautogui.click()
-            print(f"Clicked on metamask.png at: {center_metamask.x}, {center_metamask.y}")
+            print(f"Clicked on metamask_processed.png at: {center_metamask.x}, {center_metamask.y}")
             time.sleep(random.uniform(7, 10))
         else:
-            print("metamask.png not found on the screen.")
+            print("metamask_processed.png not found on the screen.")
     else:
         print("incentive2.png not found on the screen.")
