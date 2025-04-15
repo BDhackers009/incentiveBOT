@@ -12,7 +12,7 @@ This repository contains Python scripts for automating tasks using PyAutoGUI. Th
 1. Python 3.x installed on your system.
 2. Install the required Python libraries:
    ```bash
-   pip install pyautogui pillow keyboard
+   pip install pyautogui opencv-python pillow keyboard
    ```
 3. Ensure the images (`incentive2.png`, `metamask.png`) are in the same directory as the scripts.
 
