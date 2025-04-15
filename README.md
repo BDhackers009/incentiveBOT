@@ -38,7 +38,9 @@ This repository contains Python scripts for automating tasks using PyAutoGUI. Th
 3. Press `P` to play/pause the script while it is running.
 
 ### 
-- Video tutorial Incoming.
+- Video tutorial:-
+
+[![YouTube](http://i.ytimg.com/vi/r9wDaPkGefk/hqdefault.jpg)](https://www.youtube.com/watch?v=r9wDaPkGefk)
   
 ### Notes
 - Ensure the screen resolution and scaling match the images for accurate detection.
