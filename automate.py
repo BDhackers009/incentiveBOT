@@ -34,7 +34,7 @@ while True:
         print(f"Waiting for {wait_time} seconds...")
         time.sleep(wait_time)
 
-        image_path_metamask = "metamask.png"
+        image_path_metamask = "metamask_processed.png"
         location_metamask = pyautogui.locateOnScreen(image_path_metamask, confidence=0.6)
 
         if location_metamask:
@@ -42,11 +42,11 @@ while True:
             center_metamask = pyautogui.center(location_metamask)
             pyautogui.moveTo(center_metamask.x, center_metamask.y)
             pyautogui.click()
-            print(f"Clicked on metamask.png at: {center_metamask.x}, {center_metamask.y}")
+            print(f"Clicked on metamask_processed.png at: {center_metamask.x}, {center_metamask.y}")
             wait_time = random.randint(7, 10)
             print(f"Waiting for {wait_time} seconds...")
             time.sleep(wait_time)
         else:
-            print("metamask.png not found on the screen.")
+            print("metamask_processed.png not found on the screen.")
     else:
         print("incentive2.png not found on the screen.")
